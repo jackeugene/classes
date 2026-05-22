@@ -26,9 +26,8 @@ function CalendarIcon() {
 function BookGroupIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7" aria-hidden="true">
-      <path d="M17 6.1H3" />
-      <path d="M21 12.1H3" />
-      <path d="M15.1 18H3" />
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
     </svg>
   );
 }
@@ -135,11 +134,10 @@ export default function HomePage() {
         {/* Heading */}
         <div className="text-center mb-12 max-w-lg">
           <h1 className="text-4xl font-bold text-cls-heading tracking-tight mb-3">
-            Enrichment Classes
+            Class Hub
           </h1>
           <p className="text-base text-cls-secondary leading-relaxed">
-            Wellness and technology courses designed to support your everyday life.
-            Choose where you'd like to start.
+            Your one-stop hub for class materials, schedules, and other important information.
           </p>
         </div>
 
