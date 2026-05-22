@@ -1,0 +1,147 @@
+/*
+ * Class Platform — Design Tokens
+ * ────────────────────────────────
+ * Add to app/globals.css immediately after @import "tailwindcss":
+ *
+ *   @import "tailwindcss";
+ *   @import "../docs/design/tokens.css";
+ *
+ * All --cls-* variables are usable as CSS custom properties anywhere.
+ * The @theme inline block registers them with Tailwind v4, generating
+ * utility classes: bg-cls-*, text-cls-*, border-cls-*, ring-cls-*, etc.
+ */
+
+/* ── Raw values ─────────────────────────────────────────────────── */
+/* Override in [data-theme="dark"] or media queries for theming.     */
+:root {
+  /* Page background — soft mint-blue ambient wash */
+  --cls-bg:               #D9EEF2;
+  --cls-bg-deep:          #C4E4EA;
+
+  /* Navigation bar */
+  --cls-nav:              #111111;
+  --cls-nav-border:       #222222;
+
+  /* Card / panel surfaces */
+  --cls-surface:          #FFFFFF;
+  --cls-surface-raised:   #F9FAFB;
+  --cls-surface-hover:    #F3F4F6;
+
+  /* ── Accent colors ── */
+
+  /* Lavender — featured courses, Design category */
+  --cls-lavender:         #EDE0FF;
+  --cls-lavender-mid:     #D8BEFF;
+  --cls-lavender-text:    #5B21B6;
+
+  /* Sage — active/completed states, Healthcare category */
+  --cls-sage:             #CCEFD8;
+  --cls-sage-mid:         #A7E3B8;
+  --cls-sage-text:        #166534;
+
+  /* Amber — upcoming classes, Business category */
+  --cls-amber:            #FEF3C7;
+  --cls-amber-mid:        #FDE68A;
+  --cls-amber-text:       #92400E;
+
+  /* Sky — online class type, Technology category */
+  --cls-sky:              #DBEAFE;
+  --cls-sky-mid:          #BFDBFE;
+  --cls-sky-text:         #1D4ED8;
+
+  /* Rose — Creative category */
+  --cls-rose:             #FFE4E6;
+  --cls-rose-mid:         #FECDD3;
+  --cls-rose-text:        #9F1239;
+
+  /* Stone — neutral / "Other" category */
+  --cls-stone:            #F3F4F6;
+  --cls-stone-text:       #374151;
+
+  /* ── Text ── */
+  --cls-text-heading:     #111111;
+  --cls-text-body:        #374151;
+  --cls-text-secondary:   #6B7280;
+  --cls-text-muted:       #767676;
+  --cls-text-inverse:     #FFFFFF;
+  --cls-text-nav-active:  #FFFFFF;
+  --cls-text-nav-idle:    rgba(255, 255, 255, 0.55);
+
+  /* ── Borders / dividers ── */
+  --cls-border:           #E5E7EB;
+  --cls-border-mid:       #D1D5DB;
+  --cls-border-strong:    #9CA3AF;
+
+  /* ── Focus ring ── */
+  --cls-focus:            #6366F1;
+
+  /* ── Shadows ── */
+  --cls-shadow-card: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --cls-shadow-md:   0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+  --cls-shadow-lg:   0 8px 24px rgba(0,0,0,0.09), 0 4px 8px rgba(0,0,0,0.05);
+
+  /* ── Border radius ── */
+  --cls-radius-sm:   0.375rem;  /*  6px — tags, inner elements */
+  --cls-radius-md:   0.625rem;  /* 10px — inputs, small chips */
+  --cls-radius-lg:   0.875rem;  /* 14px — small cards */
+  --cls-radius-xl:   1.125rem;  /* 18px — standard cards */
+  --cls-radius-2xl:  1.5rem;    /* 24px — featured / large cards */
+  --cls-radius-full: 9999px;    /* pills, avatars */
+
+  /* ── Transitions ── */
+  --cls-duration-fast:  100ms;
+  --cls-duration-base:  180ms;
+  --cls-duration-slow:  300ms;
+  --cls-ease:           cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Tailwind v4 registration ─────────────────────────────────── */
+@theme inline {
+  /* Page / nav */
+  --color-cls-bg:             var(--cls-bg);
+  --color-cls-bg-deep:        var(--cls-bg-deep);
+  --color-cls-nav:            var(--cls-nav);
+
+  /* Surfaces */
+  --color-cls-surface:        var(--cls-surface);
+  --color-cls-surface-raised: var(--cls-surface-raised);
+  --color-cls-surface-hover:  var(--cls-surface-hover);
+
+  /* Accents */
+  --color-cls-lavender:       var(--cls-lavender);
+  --color-cls-lavender-mid:   var(--cls-lavender-mid);
+  --color-cls-lavender-text:  var(--cls-lavender-text);
+
+  --color-cls-sage:           var(--cls-sage);
+  --color-cls-sage-mid:       var(--cls-sage-mid);
+  --color-cls-sage-text:      var(--cls-sage-text);
+
+  --color-cls-amber:          var(--cls-amber);
+  --color-cls-amber-mid:      var(--cls-amber-mid);
+  --color-cls-amber-text:     var(--cls-amber-text);
+
+  --color-cls-sky:            var(--cls-sky);
+  --color-cls-sky-mid:        var(--cls-sky-mid);
+  --color-cls-sky-text:       var(--cls-sky-text);
+
+  --color-cls-rose:           var(--cls-rose);
+  --color-cls-rose-mid:       var(--cls-rose-mid);
+  --color-cls-rose-text:      var(--cls-rose-text);
+
+  --color-cls-stone:          var(--cls-stone);
+  --color-cls-stone-text:     var(--cls-stone-text);
+
+  /* Text */
+  --color-cls-heading:        var(--cls-text-heading);
+  --color-cls-body:           var(--cls-text-body);
+  --color-cls-secondary:      var(--cls-text-secondary);
+  --color-cls-muted:          var(--cls-text-muted);
+  --color-cls-inverse:        var(--cls-text-inverse);
+
+  /* Borders */
+  --color-cls-border:         var(--cls-border);
+  --color-cls-border-mid:     var(--cls-border-mid);
+
+  /* Focus */
+  --color-cls-focus:          var(--cls-focus);
+}
