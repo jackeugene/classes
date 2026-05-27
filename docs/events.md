@@ -1,5 +1,15 @@
 # Events
 
+Class: Texercise
+Class Date: Friday June 19
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
+Class: Texercise
+Class Date: Friday June 22
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
 Class: Healthy Cooking Demonstration
 Class Date: Friday Aug 14
 Class Time: 10:00-11:30
