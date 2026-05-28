@@ -6,7 +6,7 @@ type ClassCardProps = {
   courseName: string;
   /** Date object or ISO date string (e.g. "2025-09-15") */
   date: Date | string;
-  /** Display string for session time (e.g. "2:00 PM – 4:00 PM") */
+  /** Opaque display string for session time (e.g. "2:00 PM – 4:00 PM"). Never parse as a Date — rendered verbatim in Central Time. */
   time: string;
   /** Room name, address, or "Online" */
   location: string;
@@ -134,7 +134,7 @@ export function ClassCard({
         {/* Time */}
         <div className="flex items-center gap-1.5 text-cls-secondary">
           <ClockIcon />
-          <span className="text-xs font-medium">{time}</span>
+          <span className="text-xs font-medium">{time} CT</span>
         </div>
 
         {/* Location */}
