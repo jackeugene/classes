@@ -10,6 +10,8 @@ type ClassCardProps = {
   time: string;
   /** Room name, address, or "Online" */
   location: string;
+  /** Optional URL for the location — renders location as a link when provided */
+  locationUrl?: string;
   type?: ClassType;
   /** Optional short session description */
   description?: string;
@@ -86,6 +88,7 @@ export function ClassCard({
   date,
   time,
   location,
+  locationUrl,
   type,
   description,
   className = '',
@@ -140,7 +143,13 @@ export function ClassCard({
         {/* Location */}
         <div className="flex items-center gap-1.5 text-cls-secondary">
           {locationIcon}
-          <span className="text-xs font-medium truncate">{location}</span>
+          {locationUrl ? (
+            <a href={locationUrl} target="_blank" rel="noopener noreferrer" className="text-xs font-medium truncate underline underline-offset-2 hover:text-cls-heading transition-colors">
+              {location}
+            </a>
+          ) : (
+            <span className="text-xs font-medium truncate">{location}</span>
+          )}
         </div>
 
         {/* Optional description */}

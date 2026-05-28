@@ -11,6 +11,7 @@ const UPCOMING_CLASSES = [
     date: "2026-06-19",
     time: "9:00 AM – 10:00 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -18,6 +19,7 @@ const UPCOMING_CLASSES = [
     date: "2026-06-22",
     time: "9:00 AM – 10:00 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -25,6 +27,7 @@ const UPCOMING_CLASSES = [
     date: "2026-08-14",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -32,6 +35,7 @@ const UPCOMING_CLASSES = [
     date: "2026-09-17",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -39,6 +43,7 @@ const UPCOMING_CLASSES = [
     date: "2026-10-02",
     time: "10:00 AM – 12:00 PM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -46,6 +51,7 @@ const UPCOMING_CLASSES = [
     date: "2026-10-23",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
@@ -53,6 +59,7 @@ const UPCOMING_CLASSES = [
     date: "2026-12-16",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
 ];

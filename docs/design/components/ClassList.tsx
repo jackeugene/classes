@@ -7,6 +7,7 @@ type ClassItem = {
   date: Date | string;
   time: string;
   location: string;
+  locationUrl?: string;
   type?: ClassType;
   description?: string;
 };
@@ -112,6 +113,7 @@ export function ClassList({
                     date={item.date}
                     time={item.time}
                     location={item.location}
+                    locationUrl={item.locationUrl}
                     type={item.type}
                     description={item.description}
                   />
