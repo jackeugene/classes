@@ -1,9 +1,7 @@
 import { PageLayout } from "@/docs/design/components/PageLayout";
 import { CourseGrid }  from "@/docs/design/components/CourseGrid";
 
-const NAV_LINKS = [
-  { label: "Schedule", href: "/schedule" },
-];
+const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
 const COURSES = [
   {

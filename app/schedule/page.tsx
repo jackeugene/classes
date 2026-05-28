@@ -1,9 +1,7 @@
 import { PageLayout } from "@/docs/design/components/PageLayout";
 import { ClassList }  from "@/docs/design/components/ClassList";
 
-const NAV_LINKS = [
-  { label: "Schedule", href: "/schedule", active: true },
-];
+const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
 const UPCOMING_CLASSES = [
   {

@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/docs/design/components/SiteHeader";
 
-const NAV_LINKS = [
-  { label: "Schedule", href: "/schedule" },
-];
+const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
 function BookIcon() {
   return (
