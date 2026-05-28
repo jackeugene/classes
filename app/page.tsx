@@ -155,7 +155,7 @@ export default function HomePage() {
             href="/schedule"
             icon={<CalendarIcon />}
             title="Upcoming Classes"
-            meta="5 sessions scheduled"
+            meta="7 sessions scheduled"
             cta="View schedule"
             variant="amber"
           />
