@@ -116,11 +116,11 @@ export function ClassCard({
         <span className="text-[10px] font-bold tracking-widest uppercase text-cls-sage-text leading-none mb-1">
           {dayAbbrev}
         </span>
-        <span className="text-3xl font-black text-cls-sage-text leading-none">
-          {dayNum}
-        </span>
-        <span className="text-[10px] font-semibold tracking-wider uppercase text-cls-sage-text leading-none mt-1">
+        <span className="text-2xl font-black tracking-wider uppercase text-cls-sage-text leading-none">
           {monthAbbrev}
+        </span>
+        <span className="text-sm font-bold text-cls-sage-text leading-none mt-1">
+          {dayNum}
         </span>
       </div>
 
