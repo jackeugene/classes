@@ -23,11 +23,19 @@ const DAY_ABBREVS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as const;
 const MONTH_ABBREVS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'] as const;
 
 function parseDate(date: Date | string): { dayAbbrev: string; dayNum: number; monthAbbrev: string } {
-  const d = date instanceof Date ? date : new Date(date);
+  if (typeof date === 'string') {
+    const [year, month, day] = date.split('-').map(Number);
+    const d = new Date(Date.UTC(year, month - 1, day));
+    return {
+      dayAbbrev:  DAY_ABBREVS[d.getUTCDay()],
+      dayNum:     d.getUTCDate(),
+      monthAbbrev: MONTH_ABBREVS[d.getUTCMonth()],
+    };
+  }
   return {
-    dayAbbrev:  DAY_ABBREVS[d.getDay()],
-    dayNum:     d.getDate(),
-    monthAbbrev: MONTH_ABBREVS[d.getMonth()],
+    dayAbbrev:  DAY_ABBREVS[date.getDay()],
+    dayNum:     date.getDate(),
+    monthAbbrev: MONTH_ABBREVS[date.getMonth()],
   };
 }
 
