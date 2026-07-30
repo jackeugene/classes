@@ -6,16 +6,16 @@ const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 const UPCOMING_CLASSES = [
   {
     courseName: "Texercise",
-    date: "2026-06-19",
+    date: "2026-08-10",
     time: "9:00 AM – 10:00 AM",
     location: "Oasis at The Meadows",
     locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
-    courseName: "Texercise",
-    date: "2026-06-22",
-    time: "9:00 AM – 10:00 AM",
+    courseName: "Book Club",
+    date: "2026-08-13",
+    time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
     locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
@@ -29,11 +29,18 @@ const UPCOMING_CLASSES = [
     type: "in-person" as const,
   },
   {
-    courseName: "Introduction to AI",
-    date: "2026-09-17",
+    courseName: "Book Club",
+    date: "2026-09-10",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
     locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
+    courseName: "Introduction to AI",
+    date: "2026-09-17",
+    time: "10:00 AM – 11:30 AM",
+    location: "Morningside at Menger Springs",
     type: "in-person" as const,
   },
   {
@@ -45,8 +52,24 @@ const UPCOMING_CLASSES = [
     type: "in-person" as const,
   },
   {
+    courseName: "Book Club",
+    date: "2026-10-08",
+    time: "10:00 AM – 11:30 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
     courseName: "Managing Stress and Anxiety Naturally",
     date: "2026-10-23",
+    time: "10:00 AM – 11:30 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
+    courseName: "Book Club",
+    date: "2026-11-12",
     time: "10:00 AM – 11:30 AM",
     location: "Oasis at The Meadows",
     locationUrl: "https://san-antonio.oasisnet.org",
@@ -75,7 +98,7 @@ export default function SchedulePage() {
           Upcoming Classes
         </h1>
         <p className="text-cls-secondary text-sm">
-          {UPCOMING_CLASSES.length} sessions scheduled · All held at Oasis at The Meadows
+          {UPCOMING_CLASSES.length} sessions scheduled
         </p>
       </div>
 
