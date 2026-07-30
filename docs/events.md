@@ -1,13 +1,13 @@
 # Events
 
 Class: Texercise
-Class Date: Friday June 19
+Class Date: Monday August 10
 Class Time: 9:00-10:00
 Class Location: Location: Oasis at The Meadows
 
-Class: Texercise
-Class Date: Friday June 22
-Class Time: 9:00-10:00
+Class: Book Club
+Class Date: Thursday August 13
+Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
 Class: Healthy Cooking Demonstration
@@ -15,18 +15,33 @@ Class Date: Friday Aug 14
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
+Class: Book Club
+Class Date: Thursday September 10
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
 Class: Introduction to AI
 Class Date: Thursday 9/17
 Class Time: 10:00-11:30
-Class Location: Location: Oasis at The Meadows
+Class Location: Location: Morningside at Menger Springs
 
 Class: Healthy Cooking
 Class Date: Friday 10/2
 Class Time: 10:00-12:00
 Class Location: Location: Oasis at The Meadows
 
+Class: Book Club
+Class Date: Thursday October 8
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
 Class: Managing Stress and Anxiety Naturally
 Class Date: Friday 10/23
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday November 12
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
