@@ -41,6 +41,7 @@ const UPCOMING_CLASSES = [
     date: "2026-09-17",
     time: "10:00 AM – 11:30 AM",
     location: "Morningside at Menger Springs",
+    locationUrl: "https://mmliving.org/boerne/menger-springs/",
     type: "in-person" as const,
   },
   {
