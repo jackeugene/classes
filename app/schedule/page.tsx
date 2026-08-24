@@ -5,33 +5,17 @@ const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
 const UPCOMING_CLASSES = [
   {
-    courseName: "Texercise",
-    date: "2026-08-10",
-    time: "9:00 AM – 10:00 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Book Club",
-    date: "2026-08-13",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Healthy Cooking Demonstration",
-    date: "2026-08-14",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
     courseName: "Book Club",
     date: "2026-09-10",
     time: "10:00 AM – 11:30 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
+    courseName: "Texercise",
+    date: "2026-09-11",
+    time: "9:00 AM – 10:00 AM",
     location: "Oasis at The Meadows",
     locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
@@ -42,6 +26,14 @@ const UPCOMING_CLASSES = [
     time: "10:00 AM – 11:30 AM",
     location: "Morningside at Menger Springs",
     locationUrl: "https://mmliving.org/boerne/menger-springs/",
+    type: "in-person" as const,
+  },
+  {
+    courseName: "Texercise",
+    date: "2026-09-21",
+    time: "9:00 AM – 10:00 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person" as const,
   },
   {
