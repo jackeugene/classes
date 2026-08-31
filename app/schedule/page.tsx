@@ -5,6 +5,22 @@ const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
 const UPCOMING_CLASSES = [
   {
+    courseName: "Texercise",
+    date: "2026-09-08",
+    time: "9:00 AM – 10:00 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
+    courseName: "Texercise",
+    date: "2026-09-10",
+    time: "9:00 AM – 10:00 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person" as const,
+  },
+  {
     courseName: "Book Club",
     date: "2026-09-10",
     time: "10:00 AM – 11:30 AM",

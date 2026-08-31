@@ -1,4 +1,13 @@
 # Events
+Class: Texercise
+Class Date: September 8
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
+Class: Texercise
+Class Date: September 10
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
 
 Class: Book Club
 Class Date: Thursday September 10
