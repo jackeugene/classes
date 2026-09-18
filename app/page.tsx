@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { SiteHeader } from "@/docs/design/components/SiteHeader";
+import { getUpcomingClasses } from "@/lib/schedule";
+
+export const dynamic = "force-dynamic";
 
 const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
@@ -124,6 +127,8 @@ function SelectionCard({ href, icon, title, meta, cta, variant, external }: Sele
 }
 
 export default function HomePage() {
+  const upcomingCount = getUpcomingClasses().length;
+
   return (
     <div className="min-h-screen flex flex-col bg-cls-surface-raised">
       <SiteHeader siteName="Home" navLinks={NAV_LINKS} />
@@ -153,7 +158,7 @@ export default function HomePage() {
             href="/schedule"
             icon={<CalendarIcon />}
             title="Upcoming Classes"
-            meta="11 sessions scheduled"
+            meta={`${upcomingCount} session${upcomingCount === 1 ? "" : "s"} scheduled`}
             cta="View schedule"
             variant="amber"
           />

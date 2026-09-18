@@ -39,13 +39,28 @@ Class Date: Thursday October 8
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
+Class: Texercise
+Class Date: October 9
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
+Class: Texercise
+Class Date: October 12
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
 Class: Managing Stress and Anxiety Naturally
-Class Date: Friday 10/23
+Class Date: Friday October
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
 Class: Book Club
 Class Date: Thursday November 12
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday December 10
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 

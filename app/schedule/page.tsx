@@ -1,100 +1,14 @@
 import { PageLayout } from "@/docs/design/components/PageLayout";
 import { ClassList }  from "@/docs/design/components/ClassList";
+import { getUpcomingClasses } from "@/lib/schedule";
+
+export const dynamic = "force-dynamic";
 
 const NAV_LINKS: { label: string; href: string; active?: boolean }[] = [];
 
-const UPCOMING_CLASSES = [
-  {
-    courseName: "Texercise",
-    date: "2026-09-08",
-    time: "9:00 AM – 10:00 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Texercise",
-    date: "2026-09-10",
-    time: "9:00 AM – 10:00 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Book Club",
-    date: "2026-09-10",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Texercise",
-    date: "2026-09-11",
-    time: "9:00 AM – 10:00 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Introduction to AI",
-    date: "2026-09-17",
-    time: "10:00 AM – 11:30 AM",
-    location: "Morningside at Menger Springs",
-    locationUrl: "https://mmliving.org/boerne/menger-springs/",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Texercise",
-    date: "2026-09-21",
-    time: "9:00 AM – 10:00 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Healthy Cooking",
-    date: "2026-10-02",
-    time: "10:00 AM – 12:00 PM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Book Club",
-    date: "2026-10-08",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Managing Stress and Anxiety Naturally",
-    date: "2026-10-23",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Book Club",
-    date: "2026-11-12",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-  {
-    courseName: "Using AI in Your Daily Life",
-    date: "2026-12-16",
-    time: "10:00 AM – 11:30 AM",
-    location: "Oasis at The Meadows",
-    locationUrl: "https://san-antonio.oasisnet.org",
-    type: "in-person" as const,
-  },
-];
-
 export default function SchedulePage() {
+  const upcomingClasses = getUpcomingClasses();
+
   return (
     <PageLayout
       header={{
@@ -107,13 +21,13 @@ export default function SchedulePage() {
           Upcoming Classes
         </h1>
         <p className="text-cls-secondary text-sm">
-          {UPCOMING_CLASSES.length} sessions scheduled
+          {upcomingClasses.length} sessions scheduled
         </p>
       </div>
 
       <div className="max-w-xl">
         <ClassList
-          classes={UPCOMING_CLASSES}
+          classes={upcomingClasses}
           emptyMessage="No upcoming classes at this time. Check back soon."
         />
       </div>
