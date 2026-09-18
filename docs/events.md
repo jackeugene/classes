@@ -68,3 +68,8 @@ Class: Using AI in Your Daily Life
 Class Date: Wednesday 12/16
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
+
+Class: Healthy Cooking
+Class Date: Friday March 19
+Class Time: 10:00-12:00
+Class Location: Location: Oasis at The Meadows

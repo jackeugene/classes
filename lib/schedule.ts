@@ -123,6 +123,14 @@ export const ALL_CLASSES: ScheduledClass[] = [
     locationUrl: "https://san-antonio.oasisnet.org",
     type: "in-person",
   },
+  {
+    courseName: "Healthy Cooking",
+    date: "2027-03-19",
+    time: "10:00 AM – 12:00 PM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person",
+  },
 ];
 
 /** Today's calendar date (YYYY-MM-DD) in Central Time, the timezone all session times are quoted in. */
