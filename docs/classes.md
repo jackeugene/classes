@@ -33,3 +33,7 @@ Class Name: Using AI in Your Daily Life
 Class Description: Take the mystery out of artificial intelligence. This course covers the essentials — its history, how it works, and how to use it safely — then dives into exciting, practical applications designed for everyday life. Whether you want to save time, learn something new, or simply keep up with a changing world, this class will give you the confidence and tools to do it.
 Class Category: Technology
 Class Content:
+
+Demystifying Fitness Trackers: Choosing and Using One at Any Age
+Jack DeVerter
+Curious about smartwatches and fitness trackers but not sure where to start? This class breaks down what these devices track, from steps and heart rate to sleep and more, and walks through the main options on the market. We'll also discuss why tracking your health data can be valuable and, most importantly, how to use that data to shape a workout plan that works for you. No tech experience necessary — just curiosity about how these tools can support your health goals.

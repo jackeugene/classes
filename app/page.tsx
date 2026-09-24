@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/docs/design/components/SiteHeader";
 import { getUpcomingClasses } from "@/lib/schedule";
+import { COURSES } from "@/lib/courses";
 
 export const dynamic = "force-dynamic";
 
@@ -150,7 +151,7 @@ export default function HomePage() {
             href="/courses"
             icon={<BookIcon />}
             title="Our Classes"
-            meta="6 courses available"
+            meta={`${COURSES.length} courses available`}
             cta="Browse courses"
             variant="lavender"
           />

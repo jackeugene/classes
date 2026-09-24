@@ -1,4 +1,5 @@
 # Events
+
 Class: Texercise
 Class Date: September 8
 Class Time: 9:00-10:00
@@ -64,7 +65,37 @@ Class Date: Wednesday 12/16
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
+Class: Demystifying Fitness Trackers: Choosing and Using One at Any Age
+Class Date: Thursday January 12
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday January 21
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday February 25
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
 Class: Healthy Cooking
 Class Date: Friday March 19
 Class Time: 10:00-12:00
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday March 25
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Using AI in Your Daily Life
+Class Date: Wednesday April 7
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
+Class: Book Club
+Class Date: Thursday April 15
+Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
