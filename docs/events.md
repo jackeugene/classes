@@ -66,7 +66,7 @@ Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
 Class: Demystifying Fitness Trackers: Choosing and Using One at Any Age
-Class Date: Thursday January 12
+Class Date: Tuesday January 12
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
 
