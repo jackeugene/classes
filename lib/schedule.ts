@@ -60,6 +60,14 @@ export const ALL_CLASSES: ScheduledClass[] = [
     type: "in-person",
   },
   {
+    courseName: "Book Club",
+    date: "2026-10-08",
+    time: "10:00 AM – 11:30 AM",
+    location: "Oasis at The Meadows",
+    locationUrl: "https://san-antonio.oasisnet.org",
+    type: "in-person",
+  },
+  {
     courseName: "Texercise",
     date: "2026-10-12",
     time: "9:00 AM – 10:00 AM",

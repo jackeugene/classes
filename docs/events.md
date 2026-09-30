@@ -30,6 +30,11 @@ Class Date: September 21
 Class Time: 9:00-10:00
 Class Location: Location: Oasis at The Meadows
 
+Class: Book Club
+Class Date: Thursday October 8
+Class Time: 10:00-11:30
+Class Location: Location: Oasis at The Meadows
+
 Class: Texercise
 Class Date: October 12
 Class Time: 9:00-10:00
