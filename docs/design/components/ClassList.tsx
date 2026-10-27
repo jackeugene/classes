@@ -29,7 +29,10 @@ function groupByDate(classes: ClassItem[]): Group[] {
   const map = new Map<string, Group>();
 
   for (const item of classes) {
-    const d = item.date instanceof Date ? item.date : new Date(item.date);
+    /* Parse "YYYY-MM-DD" as a local calendar date; new Date(str) would treat it as UTC midnight and shift it a day back */
+    const d = item.date instanceof Date
+      ? item.date
+      : (([y, m, day]) => new Date(y, m - 1, day))(item.date.split('-').map(Number));
     /* YYYY-MM-DD sort key using local date components */
     const sortKey = [
       d.getFullYear(),
