@@ -27,7 +27,7 @@ Class Content: ../html-source/choose-device.html
 Class Name: Managing Stress and Anxiety Naturally
 Class Description: Feeling overwhelmed, anxious, or down? There are natural ways to feel better. This course explores drug-free strategies for managing stress, anxiety, and depression — from mindfulness and movement to nutrition and meaningful connection. You'll walk away with practical tools and a renewed sense of hope and control over your own wellbeing.
 Class Category: Wellness
-Class Content:
+Class Content: ../html-source/managing-stress.html
 
 Class Name: Using AI in Your Daily Life
 Class Description: Take the mystery out of artificial intelligence. This course covers the essentials — its history, how it works, and how to use it safely — then dives into exciting, practical applications designed for everyday life. Whether you want to save time, learn something new, or simply keep up with a changing world, this class will give you the confidence and tools to do it.

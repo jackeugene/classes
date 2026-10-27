@@ -39,6 +39,7 @@ export const COURSES: Course[] = [
     description:
       "Feeling overwhelmed, anxious, or down? There are natural ways to feel better. This course explores drug-free strategies for managing stress, anxiety, and depression — from mindfulness and movement to nutrition and meaningful connection. You'll walk away with practical tools and a renewed sense of hope and control over your own wellbeing.",
     category: "Wellness",
+    href: "/managing-stress.html",
   },
   {
     name: "Using AI in Your Daily Life",
