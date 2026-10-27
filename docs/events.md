@@ -104,3 +104,13 @@ Class: Book Club
 Class Date: Thursday April 15
 Class Time: 10:00-11:30
 Class Location: Location: Oasis at The Meadows
+
+Class: Texercise
+Class Date: December 7
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
+
+Class: Texercise
+Class Date: December 14
+Class Time: 9:00-10:00
+Class Location: Location: Oasis at The Meadows
